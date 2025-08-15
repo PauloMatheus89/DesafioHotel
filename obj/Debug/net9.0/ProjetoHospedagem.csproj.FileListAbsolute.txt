@@ -12,3 +12,4 @@ C:\ProjetoHospedagem\obj\Debug\net9.0\refint\ProjetoHospedagem.dll
 C:\ProjetoHospedagem\obj\Debug\net9.0\ProjetoHospedagem.pdb
 C:\ProjetoHospedagem\obj\Debug\net9.0\ProjetoHospedagem.genruntimeconfig.cache
 C:\ProjetoHospedagem\obj\Debug\net9.0\ref\ProjetoHospedagem.dll
+C:\ProjetoHospedagem\obj\Debug\net9.0\ProjetoHospedagem.sourcelink.json

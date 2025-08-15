@@ -7,14 +7,29 @@ namespace ProjetoHospedagem.Models
 {
     public class Reserva
     {
+
         public Reserva(int diasReservados)
         {
             DiasReservados = diasReservados;
             Hospedes = new List<Pessoa>();
         }
 
+        private int _diasReservados;
+
         public Suite Suite { get; set; }
-        public int DiasReservados { get; set; }
+        public int DiasReservados
+        {
+            get => _diasReservados;
+
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new ArgumentException("É Necessário pelo menos 1 dia de estádia para realizar a reserva!");
+                }
+                _diasReservados = value;
+            }
+        }
 
         public List<Pessoa> Hospedes { get; set; }
 
